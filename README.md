@@ -17,6 +17,7 @@ Currently the app supports use with both Python 3.
     ```batch
     SET FLASK_APP=csaptitude
     SET APP_SETTINGS=config.DevelopmentConfig
+    SET DATABASE_URL=sqlite:///aptitude.db
     ```
 
   - Linux/macOS  

@@ -17,8 +17,12 @@ const Timer = (function() {
             // window.alert("End of Test.\nYou can continue if you wish, " +
             //     "but please note your score now.");
             constdownEl.innerHTML = "0 minutes  0 seconds";
-            //document.testForm.submit();
-            document.testForm.dispatchEvent(new Event("submit"));
+            // window.document.testForm.dispatchEvent(
+            //     new Event("submit", {"bubbles": false, "cancelable": true})
+            // );
+            //
+            document.getElementById('submit').click();
+            //window.document.testForm.submit(); // this doesn't work for listeners.
         }
         else
         {
