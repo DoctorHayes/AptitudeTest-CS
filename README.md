@@ -37,13 +37,16 @@ Currently the app supports use with both Python 3.
 * Run the application
   - In debug mode for development (in Windows)  
     ```batch
+    SET FLASK_APP=csaptitude
     SET FLASK_ENV=development
     SET APP_SETTINGS=config.DevelopmentConfig
-    python run.py
+    SET DATABASE_URL=sqlite:///aptitude.db
+    flask run
     ```
 
   - In debug mode for development (in Linux/macOS)  
     ```shell
+    export FLASK_APP=csaptitude
     export FLASK_ENV=development
     export APP_SETTINGS=config.DevelopmentConfig
     python run.py

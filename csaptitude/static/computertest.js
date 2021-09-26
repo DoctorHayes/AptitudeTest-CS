@@ -141,7 +141,7 @@ const Questions = Object.freeze([
     },
 
     {
-        "Question": "Alan thinks of a number.<br />He squares it, then takes away 5, next multiplies it by 4, takes away 7, divides it by 3 and finally adds 6.<br />His answer is 9.<br /><br />What number did Alan start with?",
+        "Question": "Alan thinks of a number.<br />He squares it, then takes away 5, next multiplies it by 4, takes away 7, divides it by 3, and finally adds 6.<br />His answer is 9.<br /><br />What number did Alan start with?",
         "Choices": [
             "1",
             "2",
@@ -237,7 +237,7 @@ const Questions = Object.freeze([
 
     {
         "image": "computer_test_flight_tickets.svg",
-        "Question": "What would the code be for a flight to Paris at 5am for a vegetarian 8 year old girl traveling economy class?",
+        "Question": "What would the code be for a flight to Paris at 5am for a vegetarian 8-year-old girl traveling economy class?",
         "Choices": [
             "bYkR",
             "bykr",
@@ -250,7 +250,7 @@ const Questions = Object.freeze([
     },
 
     {
-        "Question": "Three computers were lined up in a row. The Dell (D) was to the left of the Viglen (V) but not necessarily next to it. The blue computer was to the right of the white computer. The black computer was to the left of the Hewlett Packard (HP) PC. The Hewlett Packard was to the left of the Viglen (V).<br /><br />What was the order of the computers from left to right?",
+        "Question": "Three computers were lined up in a row. The Dell (D) was to the left of the Viglen (V) but not necessarily next to it. The blue computer was to the right of the white computer. The black computer was to the left of the Hewlett-Packard (HP) PC. The Hewlett Packard was to the left of the Viglen (V).<br /><br />What was the order of the computers from left to right?",
         "Choices": [
             "V, HP, D",
             "V, D, HP",
@@ -263,7 +263,7 @@ const Questions = Object.freeze([
     },
 
     {
-        "Question": "Tim was given a large bag of sweets and ate one third of the sweets before stopping as he was feeling sick.<br />The next day he ate one third of the remaining sweets and the following day he ate one third of the remainder, before counting the sweets he had left which totaled eight.<br /><br />How many sweets was he given in the beginning?",
+        "Question": "Tim was given a large bag of sweets and ate one-third of the sweets before stopping as he was feeling sick.<br />The next day he ate one-third of the remaining sweets and the following day he ate one-third of the remainder, before counting the sweets he had left which totaled eight.<br /><br />How many sweets was he given in the beginning?",
         "Choices": [
             "18",
             "21",
@@ -276,7 +276,7 @@ const Questions = Object.freeze([
     },
 
     {
-        "Question": "In a counting system used by intelligent apes.<br />A banana = 1<br />6 is represented by an orange and 2 bananas<br />An orange is worth half a mango<br /><br />What is the value of two mangos, an orange and a banana?",
+        "Question": "In a counting system used by intelligent apes.<br />A banana = 1<br />6 is represented by an orange and 2 bananas<br />An orange is worth half a mango<br /><br />What is the value of two mangos, an orange, and a banana?",
         "Choices": [
             "21",//Correct Answer
             "24",
@@ -345,7 +345,7 @@ const Questions = Object.freeze([
 
     {
         "image": "computer_test_grid.svg",
-        "Question": "You start in square E6 facing East. Move 3 squares forward.<br />Turn 90 degrees clockwise, move two squares forward, turn 180 degrees anticlockwise.<br />Move 5 squares forward, turn 90 degrees anticlockwise.<br />Move 4 squares forwards, turn 90 degrees clockwise.<br />Move two squares backwards.<br />What is the Y COORDINATE of the square you are now in?",
+        "Question": "You start in square E6 facing East. Move 3 squares forward.<br />Turn 90 degrees clockwise, move two squares forward, turn 180 degrees anticlockwise.<br />Move 5 squares forward, turn 90 degrees anticlockwise.<br />Move 4 squares forwards, turn 90 degrees clockwise.<br />Move two squares backward.<br />What is the Y COORDINATE of the square you are now in?",
         "Choices": [
             "6",
             "7",//Correct Answer
@@ -359,7 +359,7 @@ const Questions = Object.freeze([
 
     {
         "image": "computer_test_grid.svg",
-        "Question": "You start in square E6 facing South West. Move three squares forward.<br />Rotate 135 degrees clockwise. Move 4 squares forward.<br />Rotate 45 degrees clockwise. Move 2 squares forward.<br />Rotate 90 degrees anticlockwise and move 4 squares backwards.<br /><br />What is the X Coordinate of the square you are now in?",
+        "Question": "You start in square E6 facing South West. Move three squares forward.<br />Rotate 135 degrees clockwise. Move 4 squares forward.<br />Rotate 45 degrees clockwise. Move 2 squares forward.<br />Rotate 90 degrees anticlockwise and move 4 squares backward.<br /><br />What is the X Coordinate of the square you are now in?",
         "Choices": [
             "C",
             "D",
